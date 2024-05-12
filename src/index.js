@@ -4,7 +4,10 @@ import App from './App';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Error from './components/Error/Error';
 import Home from './components/Home/Home.js';
-
+import Services from './components/Services/Services.js'
+import Blog from './components/Blog/Blog.js';
+import About from './components/About/About.js'
+import Contact from './components/Contact/Contact.js'
 const router = createBrowserRouter([
   {
     path : '/',
@@ -16,20 +19,20 @@ const router = createBrowserRouter([
         element : <Home />
       },
       {
-        path : '/home',
-        element : <Home />
+        path : '/services',
+        element : <Services />
       },
       {
-        path : '/home',
-        element : <Home />
+        path : '/blog',
+        element : <Blog />
       },
       {
-        path : '/home',
-        element : <Home />
+        path : '/about',
+        element : <About />
       },
       {
-        path : '/home',
-        element : <Home />
+        path : '/contact',
+        element : <Contact />
       },
     ]
   }

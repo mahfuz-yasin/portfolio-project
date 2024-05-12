@@ -5,6 +5,10 @@ function Navbar() {
   return (
     <div>
       <Link to={'/home'}>Home</Link>
+      <Link to={'/services'}> Services </Link>
+      <Link to={'/blog'}> Blog </Link>
+      <Link to={'/about'}> About Us </Link>
+      <Link to={'/contact'}> Contact Us</Link>
     </div>
   )
 }
